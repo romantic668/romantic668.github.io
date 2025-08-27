@@ -55,6 +55,98 @@
 
 		<!-- Main -->
 		<div id="main">
+			<!-- ===== Most Recent Apps ===== -->
+			<header>
+				<h2 align="center">Most Recent Apps</h2>
+			</header>
+
+			<section class="posts">
+				<!-- Banff Planner -->
+				<article>
+					<header>
+						<h2>Banff Planner</h2>
+					</header>
+
+					<p>
+						Hiking routes & weather planner for Banff National Park. Browse curated trails with
+						difficulty/distance, then view a 3-day forecast in °C/°F for each route.
+					</p>
+
+					<!-- 换成你的配图：/images/banff.png -->
+					<a href="https://banff-planner.fly.dev/" class="image fit">
+						<img src="images/banff.png" alt="Banff Planner screenshot" />
+					</a>
+
+					<h3>Features</h3>
+					<p>
+						Route cards (name, difficulty, distance, duration) • Detail page with map coords •
+						3-day weather forecast with unit toggle • Response caching to keep it snappy.
+					</p>
+
+					<h3>Technologies</h3>
+					<p>
+						Python (Flask), SQLAlchemy, SQLite, Jinja2, OpenWeather API, Gunicorn, Docker, Fly.io.
+					</p>
+
+					<h3>Future improvements</h3>
+					<p>
+						Favorites & user accounts • GPX/KML download • Map tile overlay • Postgres for multi-user scale.
+					</p>
+
+					<ul class="actions special">
+						<li><a href="https://banff-planner.fly.dev/" class="button large">Live Demo</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/romantic668/banff-planner" class="button large">Source Code</a>
+						</li>
+					</ul>
+				</article>
+
+				<!-- Gym Management System -->
+				<article>
+					<header>
+						<h2>Gym Management System</h2>
+					</header>
+
+					<p>
+						Full-stack .NET app with role-based dashboards for admins, trainers and members:
+						manage customers, classes, branches and sessions.
+					</p>
+
+					<!-- 换成你的配图：/images/gym.png -->
+					<a href="https://gym-management.fly.dev/" class="image fit">
+						<img src="images/gym.png" alt="Gym Management System screenshot" />
+					</a>
+
+					<h3>Features</h3>
+					<p>
+						ASP.NET Core Identity (email/Google) • CRUD for customers/branches/classes •
+						Admin & Customer areas • Auto EF migrations • (Windows) PDF export.
+					</p>
+
+					<h3>Technologies</h3>
+					<p>
+						ASP.NET Core 8, Entity Framework Core, SQLite, Identity, DinkToPdf (PDF), Docker, Fly.io.
+					</p>
+
+					<h3>Future improvements</h3>
+					<p>
+						Deployable PDF on Linux (wkhtmltopdf in container) • Switch to Postgres •
+						CI/CD with GitHub Actions • Audit logs & reporting.
+					</p>
+
+					<ul class="actions special">
+						<!-- 如果你的线上域名不同，改这里的链接；没上线就先指向仓库或写 Coming Soon -->
+						<li><a href="https://gym-management.fly.dev/" class="button large">Live Demo</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/romantic668/GymManagement_System" class="button large">Source
+								Code</a></li>
+					</ul>
+				</article>
+			</section>
+			<!-- ===== /Most Recent Apps ===== -->
+
 			<header>
 				<h2 align="center">Front-end Apps</h2>
 			</header>
